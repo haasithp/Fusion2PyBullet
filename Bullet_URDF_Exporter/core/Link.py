@@ -78,7 +78,6 @@ class Link:
         geometry_c = SubElement(collision, 'geometry')
         mesh_c = SubElement(geometry_c, 'mesh')
         mesh_c.attrib = {'filename': self.repo + self.name + '.stl','scale':'0.001 0.001 0.001'} ## scale = 0.001 means mm to m. Modify it according if using another unit
-        material = SubElement(visual, 'material')
 
         # print("\n".join(utils.prettify(link).split("\n")[1:]))
         self.link_xml = "\n".join(utils.prettify(link).split("\n")[1:])
