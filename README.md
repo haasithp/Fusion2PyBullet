@@ -1,6 +1,6 @@
 # Fusion2Pybullet
 
-### Archive Note: This forked to add a minor modification that adds an empty <material/> tag to the URDF file.
+### Archive Note: This forked to add a minor modification that removes an empty <material/> tag which is being added to the URDF file earlier.
 
 [简体中文](README.zh.md) | English
 
