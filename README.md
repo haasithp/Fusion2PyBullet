@@ -1,6 +1,6 @@
 # Fusion2Pybullet
 
-Archive Note: I will no longer sutdy and work in Robitics. Please fork and develop on your needs.
+### Archive Note: This forked to add a minor modification that adds an empty <material/> tag to the URDF file.
 
 [简体中文](README.zh.md) | English
 
